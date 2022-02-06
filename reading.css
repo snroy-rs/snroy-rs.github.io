@@ -31,7 +31,7 @@
     color: rgba(255, 255, 255, 0.86);
     z-index: 5000;
     opacity: 0.86;
-    -webkit-animation: pagefade 2.5s;
+    -webkit-animation: pagefade 2.0s;
   }
   
   @-webkit-keyframes pagefade {
@@ -53,7 +53,7 @@
     color: rgba(255, 255, 255, 0.79);
     z-index: 5000;
     opacity: 0.86;
-    -webkit-animation: pagefade 2.5s;
+    -webkit-animation: pagefade 2.0s;
     }
   
     @-webkit-keyframes pagefade {
@@ -91,7 +91,7 @@
   margin-left: -6px;
   z-index: 3000;
   font-style: italic;
-  -webkit-animation: textfade 2.5s;
+  -webkit-animation: textfade 2.0s;
 }
 
 @-webkit-keyframes textfade {
@@ -108,7 +108,7 @@
     top: 2vh;
     z-index: 3000;
     font-style: italic;
-    -webkit-animation: textfade 2.5s;
+    -webkit-animation: textfade 2.0s;
   }  
 
   @-webkit-keyframes textfade {

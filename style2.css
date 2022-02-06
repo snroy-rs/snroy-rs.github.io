@@ -26,23 +26,6 @@
   -webkit-animation: pagefade 2.5s;
 }
 
-/* .cover-pfp-image {
-  
-  height: 80 px; 
-  margin-top: -20px;
-  margin-left: 0px;
-  float: right;
-  position: relative;
-  left: 700px;
-  padding-right: 100%;
-  padding-bottom: 0%;
-  text-align: right;
-  border-radius: 150%;
-  width: 80px;
-
-  
-} */
-
 
 .cover-pfp-image {
   width:145px;
@@ -99,6 +82,7 @@ body.dark-mode {
     overflow: scroll;
   }
 }
+
 
 body.light-mode {
   background-color: #FFFFFF;
@@ -270,7 +254,7 @@ h4 {
   right: 0;
   bottom: 0;
   opacity: 0;
-  -webkit-animation: fadein 1.5s;
+  -webkit-animation: fadein 1.0s;
   -webkit-animation-delay: 5.6s;
   animation-iteration-count: infinite;
 }
