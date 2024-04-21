@@ -192,6 +192,16 @@ nav ul{
   background-color: white;
   /* ...other styles and animations */
 }
+.tab.active .node {
+  display: block; /* Node is only displayed when the tab is active */
+}
+
+.tab .node {
+  display: none; /* Node is hidden when the tab is not active */
+}
+.node {
+  display: block; /* Node is always displayed */
+}
 
 
 @keyframes node-animation {
