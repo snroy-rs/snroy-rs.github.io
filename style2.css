@@ -506,7 +506,7 @@ h4 {
   }
   
 /*Navigation Bar*/
-#divfix{
+#divfix {
   position: fixed;
   padding-left: 91px;
   width: 100%;
@@ -520,11 +520,11 @@ h4 {
 
 @-webkit-keyframes textfade {
   from { opacity: 0; }
-  to   { opacity: 0.86; }
+  to { opacity: 0.86; }
 }
 
 @media only screen and (max-width: 680px) {
-  #divfix{
+  #divfix {
     padding-left: 45px;
     max-width: 100%;
   }  
@@ -573,6 +573,7 @@ nav ul li a:hover {
 .active {
   color: rgba(255, 255, 255, 0.86);
 }
+
 
 /* #divfix{
   position: fixed;
@@ -876,4 +877,19 @@ nav ul{
     opacity: 0.9;
     background: #1f1f1f;
   }
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section {
+  margin: 20px;
+  text-align: left;
 }
