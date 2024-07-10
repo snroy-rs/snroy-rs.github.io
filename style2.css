@@ -28,9 +28,9 @@
 
 .profile-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px;
+  text-align: left;
 }
 
 .cover-pfp-image {
@@ -38,13 +38,19 @@
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  margin-left: 20px; /* Adjust as needed */
+  margin-left: auto;
 }
 
 .profile-container div {
   flex-grow: 1;
-  max-width: calc(100% - 185px); /* Adjust based on image width and margin */
+  margin-right: 20px; /* Space between text and image */
 }
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* .cover-pfp-image {
   width:145px;
