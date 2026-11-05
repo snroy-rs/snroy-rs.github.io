@@ -355,3 +355,50 @@ nav ul{
   opacity: 0.9;
   background: #1f1f1f;
 }
+
+
+/* Keep content and navigation in one centered, responsive column. */
+body {
+  margin: 0;
+}
+
+body > .List {
+  position: relative;
+  box-sizing: border-box;
+  width: min(760px, calc(100% - 48px));
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+  text-align: left;
+}
+
+#divfix {
+  box-sizing: border-box;
+  left: max(24px, calc((100% - 760px) / 2));
+  width: min(760px, calc(100% - 48px));
+  max-width: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav ul li {
+  width: 110px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.line {
+  left: max(24px, calc((100% - 760px) / 2));
+  width: min(760px, calc(100% - 48px));
+  min-width: 0;
+}
+
+#hider {
+  left: 0;
+  width: 100%;
+}
+
+.node {
+  left: 0;
+  margin-left: 90px;
+}

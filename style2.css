@@ -786,3 +786,77 @@ nav ul{
     background: #1f1f1f;
   }
 }
+
+/* Keep content and navigation in one centered, responsive column. */
+body {
+  margin: 0;
+}
+
+.right-page {
+  position: relative;
+  box-sizing: border-box;
+  width: min(760px, calc(100% - 48px));
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+  text-align: left;
+}
+
+#divfix {
+  box-sizing: border-box;
+  left: max(24px, calc((100% - 760px) / 2));
+  width: min(760px, calc(100% - 48px));
+  max-width: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav ul li {
+  width: 110px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.line {
+  left: max(24px, calc((100% - 760px) / 2));
+  width: min(760px, calc(100% - 48px));
+  min-width: 0;
+}
+
+#hider {
+  left: 0;
+  width: 100%;
+}
+
+.cover-pfp-image {
+  display: block;
+  float: none;
+  margin-right: 0;
+}
+
+.node {
+  left: 0;
+  margin-left: 90px;
+}
+
+/* Decorative orbits may extend past a narrow screen. */
+html {
+  overflow-x: clip;
+}
+
+/* Keep the face centered in the circular portrait, with scenery visible. */
+.right-page > div:first-child {
+  width: 145px;
+  height: 145px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cover-pfp-image {
+  width: 145px;
+  height: 145px;
+  border-radius: 0;
+  object-position: 44% 50%;
+  transform: scale(1.6);
+  transform-origin: 50% 8%;
+}
